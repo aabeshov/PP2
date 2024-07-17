@@ -1,0 +1,39 @@
+--- Variables.py
++++ Variables.py
+@@ -1,20 +1,21 @@
+-x = int(5)
+-y = str('John')
+-print(type(x))
+-print(type(y))
+ 
+-print(x)
+-print(y)
++a = int(5)
++b = str('John')
++print(type(a))
++print(type(b))
+ 
+-x = 5
+-y = "John"
+-print(type(x))
+-print(type(y))
++print(a)
++print(b)
+ 
++a = 5
++b = "John"
++print(type(a))
++print(type(b))
+ 
+-x = y = z ="Orange"
+ 
+-x, y, z = "Orange", "Banana", "Cherry"
+-print(x)
+-print(y)
+-print(z)
++a = b = c = "Orange"
++
++a, b, c = "Orange", "Banana", "Cherry"
++print(a)
++print(b)
++print(c)
