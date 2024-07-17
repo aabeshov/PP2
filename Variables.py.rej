@@ -1,0 +1,12 @@
+--- Variables.py
++++ Variables.py
+@@ -15,7 +16,7 @@ print(type(y))
+ 
+ x = y = z ="Orange"
+ 
+-x, y, z = "Orange", "Banana", "Cherry"
++x, y, z = "Orange", "banana", "Cherry"
+ print(x)
+ print(y)
+-print(z)
++print(z)
