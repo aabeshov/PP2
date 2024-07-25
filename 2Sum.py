@@ -1,5 +1,7 @@
 
+
 def two_sum(nums, target):
+    nums.sort()
     num_to_index = {}
     for i, num in enumerate(nums):
         complement = target - num
